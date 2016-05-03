@@ -1,0 +1,12 @@
+node.default['fwknop']['interface'] = 'eth0'
+node.default['fwknop']['pcap_port'] = '62201'
+node.default['fwknop']['conf_dir'] = '/etc/fwknop'
+node.default['fwknop']['access']['source'] = 'ANY'
+node.default['fwknop']['access']['enable_cmd_exec'] = 'N'
+node.default['fwknop']['access']['timeout'] = 30
+node.default['fwknop']['access']['enable_forward_access'] = 'N'
+node.default['fwknop']['access']['require_source_address'] = 'N'
+node.default['fwknop']['gpg']['home_dir'] = '/root/.gnupg'
+node.default['fwknop']['gpg']['decrypt_id'] = nil
+node.default['fwknop']['gpg']['decrypt_pw'] = nil
+node.default['fwknop']['gpg']['require_sig'] = nil

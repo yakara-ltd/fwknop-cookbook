@@ -1,0 +1,11 @@
+DEPENDENCIES
+  fwknop
+    path: .
+    metadata: true
+
+GRAPH
+  fwknop (0.1.0)
+    sysctl (>= 0.0.0)
+  ohai (3.0.1)
+  sysctl (0.7.5)
+    ohai (~> 3.0)
